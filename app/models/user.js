@@ -1,5 +1,3 @@
-import { Schema } from 'mongoose';
-
 //load the things we need
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
