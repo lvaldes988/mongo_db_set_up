@@ -1,6 +1,6 @@
 //load the thisng we need
 
-var mongoose = requiere ('mongoose');
+var mongoose = require ('mongoose');
 
 //to define the sqchema for our user model in our db table
 var addressSchema = mongoose.Schema({
