@@ -9,7 +9,8 @@ var userSchema = mongoose.Schema({
     name: {type: String, trim: true}, 
     emailConfirmationToken: String, 
     resetPasswordToken: String, 
-    resetPasswordTokenExpires: Number
+    resetPasswordTokenExpires: Number,
+    emailConfirmed: Boolean
 });
 
 //generate a hash so our db never stror the real password

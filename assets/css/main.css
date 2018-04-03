@@ -136,3 +136,51 @@ body {
     background: url('../images/404.jpg') no-repeat;
     background-size: cover;
   }
+
+  .mainContainer{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer > img{
+    margin: 3em;
+    width: 400px;
+    height: 618px;
+    z-index: 0;
+}
+
+.display{
+    position: absolute;
+    border: 1px solid black;
+    width: 306px;
+    height: 14.2%;
+    transform: translateY(-191%);
+    text-align: right;
+    font-size: 65px;
+    z-index: 1;
+}
+
+
+.buttonContainer {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 320px;
+    height: 43%;
+    transform: translateY(35%);
+    z-index: 1;
+
+}
+
+.button{
+    border:1px solid black;
+    margin: 0;
+    height: 24%;
+    width: 24%;
+    z-index: 2;
+}

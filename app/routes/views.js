@@ -40,6 +40,10 @@ module.exports = function (app) {
         res.render('index.ejs'); // load the index.ejs file
       }
     });
+
+    app.get('/calculator', function (req, res) {
+      res.render('calculator.ejs');
+    });
   
     // =====================================
     // LOGIN ===============================
@@ -98,7 +102,7 @@ module.exports = function (app) {
     app.get('*', function (req, res) {
       res.render('404.ejs');
     });
-  
+
   };
   
   // route middleware to make sure a user is logged in
