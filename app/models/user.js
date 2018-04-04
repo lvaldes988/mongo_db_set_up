@@ -26,6 +26,7 @@ userSchema.methods.validPassword = function (password) {
 };
 
 //checking email confirmation
+
 userSchema.methods.isEmailConfirmed = function (){
     return this.emailConfirmed;
 };
